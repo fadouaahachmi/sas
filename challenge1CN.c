@@ -4,10 +4,10 @@ int main() {
     int N;
     printf("entrez un nombre :");
     scanf("%d",&N);
-    if ( N < 0 )
-    printf("ce nombre est impaire.");
-    else
+    if ( N%2==0 )
     printf("ce nombre est paire.");
+    else
+    printf("ce nombre est impaire.");
 
 
     return 0;
