@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int n[3],i,min,max;
+    int n[10],i,min,max;
 
-    for(i=0;i<3;i++){
+    for(i=0;i<10;i++){
         printf("Entrez N%d :",i+1);
         scanf("%d",&n[i]);
         if(n[i]<min){

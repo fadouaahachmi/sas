@@ -2,7 +2,7 @@
 
 int main() {
     int NA, mois, semaine, jour, heure;
-    printf("Svp entrez le Nombre d'années :");
+    printf("Svp entrez le Nombre d'annees :");
     scanf("%d",&NA);
     mois = 30 * NA;
     semaine = 4 * 30 * NA;
